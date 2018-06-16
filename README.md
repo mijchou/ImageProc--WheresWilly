@@ -4,15 +4,15 @@ Big data ain't all about the big 'amount' of data, but also the 'big' variety of
 
 ## The task:
 
-The good old Lena's back! \\
-![Lena_Origin](/lena.png) \\
+The good old Lena's back! //
+![Lena_Origin](/lena.png) //
 
-And with Willy aside. \\
-![Lena_wit_Willy](/lena_modified.png) \\
+And with Willy aside. //
+![Lena_wit_Willy](/lena_modified.png) //
 
 Along the rise of wearable technology, we no longer need to spot out Willy the old way we do--we ask the computer to do it. \\
 
-So, how do we extract the difference between two images? \\
+So, how do we extract the difference between two images? //
 
 ## 
 
@@ -60,5 +60,5 @@ Export image
 writePNG(diff.arr, "difference.png")
 ```
 
-![Difference](/difference.png) \\
+![Difference](/difference.png) 
 
