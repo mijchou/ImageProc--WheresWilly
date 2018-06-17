@@ -1,4 +1,9 @@
 Untitled
+
+
+Big data ain't all about the big 'amount' of data, but also the 'big' variety of their kinds. Today we deal with not only data handed to us in the spreadsheet, but also those in all forms such as texts, audio and images.
+
+
 ================
 Miriam Chou
 16 June 2018
