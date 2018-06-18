@@ -4,19 +4,21 @@
 
 ## The task:
 
-The good old Lena's back! //
-![Lena_Origin](/lena.png) //
+The good old Lena's back!
 
-And with Willy aside. //
-![Lena_wit_Willy](/lena_modified.png) //
+![Lena_Origin](/lena.png) \
 
-Along the rise of wearable technology, we no longer need to spot out Willy the old way we do--we ask the computer to do it. \\
+And with Willy aside. \
 
-So, how do we extract the difference between two images? //
+![Lena_wit_Willy](/lena_modified.png) \
+
+Along the rise of wearable technology, we no longer need to spot out Willy the old way we do--we ask the computer to do it. \
+
+So, how do we extract the difference between two images? \
 
 ## 
 
-The library we'll be needing here is called *png*. Remember to *install.packages()* the package for the first time using it.
+We'll use the library *png* to load and save images of the format. Remember to *install.packages()* the package for the first time using it.
 
 ``` r
 install.packages('png')
@@ -26,7 +28,7 @@ library(png)
 Load images
 ===========
 
-
+Store two images into img.a (the original lena) and img.b (with Willy.)
 
 ``` r
 img.a <- readPNG("lena.png")
@@ -35,6 +37,8 @@ img.b <- readPNG("lena_modified.png")
 
 Data checking
 =============
+
+Each image comes as an array of 3 dimentions. The 
 
 ``` r
 str(img.a) ; str(img.b) # Array 512*512*4
@@ -62,3 +66,4 @@ writePNG(diff.arr, "difference.png")
 
 ![Difference](/difference.png) 
 
+Done!
