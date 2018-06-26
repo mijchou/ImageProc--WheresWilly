@@ -14,7 +14,8 @@ With Willy aside.
 
 Along the rise of wearable technology, we no longer need to spot out Willy the old way we do--we ask the computer to do it. So, how do we extract the difference between two images?
 
-## 
+Setup
+=====
 
 The R library *png* will be used to load and save images in to .png files. To *install.packages()* the package for the first time using it.
 
