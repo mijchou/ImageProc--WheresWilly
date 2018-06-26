@@ -6,13 +6,13 @@ To be edited...
 
 The good old Lena's back!
 
-![Lena_Origin](/lena.png) \
+![Lena_Origin](/lena.png)
 
 With Willy aside.
 
-![Lena_wit_Willy](/lena_modified.png) \
+![Lena_wit_Willy](/lena_modified.png)
 
-Along the rise of wearable technology, we no longer need to spot out Willy the old way we do--we ask the computer to do it. So, how do we extract the difference between two images? \
+Along the rise of wearable technology, we no longer need to spot out Willy the old way we do--we ask the computer to do it. So, how do we extract the difference between two images?
 
 ## 
 
